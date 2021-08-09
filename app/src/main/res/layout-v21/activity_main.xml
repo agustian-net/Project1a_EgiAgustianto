@@ -32,9 +32,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.098"
-        android:autofillHints=""
-        android:hint=""
-        tools:ignore="LabelFor" />
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/btnTampilkan"
@@ -48,7 +46,6 @@
         app:layout_constraintHorizontal_bias="0.051"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/inputNama"
-        app:layout_constraintVertical_bias="0.052"
-        tools:targetApi="lollipop" />
+        app:layout_constraintVertical_bias="0.052" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
